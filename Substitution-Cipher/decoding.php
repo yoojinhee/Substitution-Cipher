@@ -13,11 +13,11 @@ $decryption="";
 		<form action="decoding_process.php" method="post">
 		<tr>
 			<td>암호키</td>
-			<td><input type="text" name="key" placeholder="암호키를 입력해주세요" size="20" required></td>
+			<td><input type="text" name="key" placeholder="암호키를 입력해주세요" size="20"></td>
 		</tr>
 		<tr>
 			<td>암호문</td>
-			<td><input type="text" name="code" placeholder="암호문을 입력해주세요" size="20" required></td>
+			<td><input type="text" name="code" placeholder="암호문을 입력해주세요" size="20"></td>
 		</tr>
 		<tr>
 			<td>복호문</td>

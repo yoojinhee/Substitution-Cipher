@@ -1,3 +1,7 @@
 table{
 	margin:200px auto 0 auto;
 }
+a{
+	text-decoration: none;
+	color:black;
+}

@@ -13,11 +13,11 @@ $code="";
 		<form action="encryption_process.php" method="post">
 		<tr>
 			<td>암호키</td>
-			<td><input type="text" name="key" placeholder="암호키를 입력해주세요" size="20" required></td>
+			<td><input type="text" name="key" placeholder="암호키를 입력해주세요" size="20"></td>
 		</tr>
 		<tr>
 			<td>평문</td>
-			<td><input type="text" name="code" placeholder="평문을 입력해주세요" size="20" required></td>
+			<td><input type="text" name="code" placeholder="평문을 입력해주세요" size="20"></td>
 		</tr>
 		<tr>
 			<td>암호문</td>
