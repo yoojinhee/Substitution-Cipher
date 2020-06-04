@@ -1,27 +1,45 @@
-
-table{
-	margin:300px auto;
-	border: 1px solid #444444;
-    border-collapse: collapse;
-    height: 200px;
-    width: 600px;
+body{
+	background-color: #F4F4F5;
 }
- td{
-
-	font-size: 15px;
+.wrraper{
+	background-color: white;
+	padding:10px 10px 10px 10px;
+	width:700px;
+	border:2px solid #0D1632;
+	margin:200px auto 0 auto;
+	border-radius: 10px;
 	text-align: center;
-	border: 1px solid #444444;
 }
-a{
-	text-decoration: none;
-	color:black;
+.title{
+	margin-top:30px;
+	font-size: 1.5rem;
+}
+.container{
+	margin-top:40px;
+	margin-bottom: 40px;
+}
+.code, .key{
+	font-size:1rem;
+	height: 50px;
+	width:600px;
+}
+.submit {
+	width:613px;
+	height: 50px;
+}
+.submitbutton,.inputcode,.inputkey{
+	margin-top:20px;
+}
+.code,.key{
+	padding-left: 5px;
+	padding-right: 5px;
 }
 .submit{
-	font-size: 15px;
-	width:150px;
-	height: 30px;
+	font-size: 1rem;
+	background-color: #0D1632;
+	border: 1px solid #0D1632;
+	color:white;
 }
-.input{
-	width:300px;
-	height: 30px;
-}
+/*#F4A025 주*/
+/*#0D1632 남*/
+/*#F4F4F5 회*/

@@ -217,8 +217,6 @@ function cryption($change_code,$multi_array,$lockarr,$num,$qzarr){
 			$lockarr=$lockarr.$multi_array[$x2][$y1];
 			$lockarr=$lockarr.$multi_array[$x1][$y2];
 		}
-		// print_r($i.$lockarr."    ");
-		// print_r($x1.$y1.$x2.$y2);
 	}
 	return $lockarr;
 }
@@ -227,40 +225,46 @@ function cryption($change_code,$multi_array,$lockarr,$num,$qzarr){
 <html lang="ko">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>암호화/복호화</title>
 	<style>
 		@import url("css/process.css");
 	</style>
 </head>
 <body>
-	<table class="str-table top-table">
-		<tr>
-			<th>암호키</th>
-			<td><?=$prevkey?></td>
-		</tr>
-		<tr>
-			<th>평문</th>
-			<td><?=$prevcode?></td>
-		</tr>
-	</table>
-	<table class="board">
-		<?=$list?>
-	</table>
-	<div class="codestrdiv">
-		<?=$codestr?>
-	</div>
-	<table class="str-table">
-		<tr>
-			<th>암호화된 문자열</th>
-			<td><?=$specing_lockarr?></td>
-		</tr>
-		<tr>
-			<th>복호화된 문자열</th>
-			<td><?=$decarr?></td>
-		</tr>
-	</table>
-	<div class="button">
-		<input type="button"  class="rebutton" onClick="location.href='encryption.php'" value="다시하기">
+	<div class="wrapper">
+		<div class="container">
+			<div class="top">
+				암호키
+				<div class="key">
+					<?=$prevkey?>
+				</div>
+				평문
+				<div class="code">
+					<?=$prevcode?>
+				</div>
+			</div>
+			<div class="board">
+				<table class="board">
+					<?=$list?>
+				</table>
+			</div>
+			<div class="codestr">
+				<?=$codestr?>
+			</div>
+			<div class="result">
+				암호문
+				<div class="rekey">
+					<?=$specing_lockarr?>
+				</div>
+				복호문
+				<div class="recode">
+					<?=$decarr?>
+				</div>
+			</div>
+			<div class="rebutton">
+				<input type="button"  class="re" onClick="location.href='encryption.php'" value="다시하기">
+			</div>
+		</div>
 	</div>
 </body>
 </html>

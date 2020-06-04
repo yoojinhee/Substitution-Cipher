@@ -1,45 +1,53 @@
+body{
+	background-color: #F4F4F5;
+}
+.wrapper{
+	background-color: white;
+	width:900px;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+	border:2px solid #0D1632;
+	border-radius: 20px;
+
+}
+.container{
+	width:500px;
+	margin:20px auto 20px auto;
+}
+.result,.top{
+	font-size: 1.2rem;
+	
+}
+.recode,.rekey,.codestr,.code,.key{
+	font-size: 1.4rem;
+	border:1px solid #0D1632;
+	padding:5px 5px 5px 5px;
+	margin-bottom: 20px;
+}
 .board{
-	margin:20px auto;
-	width:200px;
-	height:200px;
-	border: 1px solid #444444;
+	width: 100%;
+	height: 400px;
+	border: 1px solid #0D1632;
     border-collapse: collapse;
 }
 .board td{
-	font-size: 20px;
+	font-size: 1.5rem;
 	width:50px;
 	text-align: center;
-	border: 1px solid #444444;
+	border: 1px solid #0D1632;
 }
-.str-table{
-	margin:20px auto;
-	border: 1px solid #444444;
-    border-collapse: collapse;
+.rebutton,.result,.codestr{
+	margin-top:20px;
 }
-.str-table td{
-	text-align: center;
-	padding:10px 10px 10px 10px;
-	border: 1px solid #444444;
-}
-.codestrdiv{
-	text-align: center;
-	margin:20px auto;
-	padding:10px 10px 10px 10px;
-	width:500px;
-	border: 1px solid #444444;
-}
-.top-table{
-	margin-top:100px;
-}
-.button{
-	margin:10px auto;
-	text-align: center;
-}
-.rebutton{
-	font-size: 20px;
-	width: 120px;
+.re{
+	width:100%;
 	height: 50px;
-	background-color: white;
-	color: black;
-	border:1px solid black;
+	background-color: #0D1632;
+	color: white;
+	font-size: 1.2rem;
+	border:1px solid #0D1632;
 }
+/*#F4A025 주*/
+/*#0D1632 남*/
+/*#F4F4F5 회*/
