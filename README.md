@@ -1,8 +1,8 @@
 # Substitution-Cipher
 
 <div>
-<img src="https://user-images.githubusercontent.com/52348335/83668225-93eeb580-a60a-11ea-90f9-9ef6387c1261.PNG" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/52348335/83770288-db814a00-a6bb-11ea-814a-30355cf32000.PNG" width="90%"></img>
 </div>
 <div>
-<img src="https://user-images.githubusercontent.com/52348335/83668230-951fe280-a60a-11ea-8980-731befcf0627.PNG" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/52348335/83770297-dcb27700-a6bb-11ea-9c33-df041fa9df5f.PNG" width="90%"></img>
 </div>
